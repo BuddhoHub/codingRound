@@ -8,5 +8,4 @@
 
 4. Using maven-compiler plugin and maven-surefire plugin to generate testng reports.
 
-5. Create testng.xml file to enable one click test run. Coammand to be used : "mvn clean test".
-
+5. Create testng.xml file to enable one click test run. Command to be used : "mvn clean test".
