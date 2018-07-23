@@ -1,17 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 42.774 sec <<< FAILURE! - in TestSuite
-shouldBeAbleToSearchForHotels(automationFramework.HotelBookingTest)  Time elapsed: 0.022 sec  <<< FAILURE!
-java.lang.NullPointerException: null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy5.click(Unknown Source)
-	at pageObjects.HotelBookingPO.clickHotelTab(HotelBookingPO.java:36)
-	at automationFramework.HotelBookingTest.shouldBeAbleToSearchForHotels(HotelBookingTest.java:18)
-
-shouldThrowAnErrorIfSignInDetailsAreMissing(automationFramework.SignInTest)  Time elapsed: 0.004 sec  <<< FAILURE!
-java.lang.NullPointerException: null
-	at pageObjects.SignInPO.lnk_YourTrips(SignInPO.java:20)
-	at automationFramework.SignInTest.shouldThrowAnErrorIfSignInDetailsAreMissing(SignInTest.java:16)
-
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 60.235 sec - in TestSuite

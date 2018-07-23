@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.Select;
 import testConfig.SeleniumHelper;
 
 public class HotelBookingPO extends SeleniumHelper{
-
+	
 	@FindBy(xpath="//*[@id='Home']/div/div/ul/li/div/div[2]/aside[1]/nav/ul[1]/li[2]/a[1]/span")
 	private WebElement hotelLink;
 	

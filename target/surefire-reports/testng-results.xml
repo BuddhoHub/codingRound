@@ -1,113 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="2" total="5" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Travel Booking Suite" duration-ms="19355" started-at="2018-07-23T11:25:26Z" finished-at="2018-07-23T11:25:46Z">
+  <suite name="Travel Booking Suite" duration-ms="59450" started-at="2018-07-23T15:37:31Z" finished-at="2018-07-23T15:38:30Z">
     <groups>
       <group name="regression">
-        <method signature="FlightBookingTest.testThatResultsAppearForAOneWayJourney()[pri:0, instance:automationFramework.FlightBookingTest@3cb5cdba]" name="testThatResultsAppearForAOneWayJourney" class="automationFramework.FlightBookingTest"/>
-        <method signature="HotelBookingTest.shouldBeAbleToSearchForHotels()[pri:0, instance:automationFramework.HotelBookingTest@56cbfb61]" name="shouldBeAbleToSearchForHotels" class="automationFramework.HotelBookingTest"/>
-        <method signature="SignInTest.shouldThrowAnErrorIfSignInDetailsAreMissing()[pri:0, instance:automationFramework.SignInTest@1134affc]" name="shouldThrowAnErrorIfSignInDetailsAreMissing" class="automationFramework.SignInTest"/>
+        <method signature="FlightBookingTest.testThatResultsAppearForAOneWayJourney()[pri:0, instance:travelSearchTests.FlightBookingTest@5a39699c]" name="testThatResultsAppearForAOneWayJourney" class="travelSearchTests.FlightBookingTest"/>
+        <method signature="HotelBookingTest.shouldBeAbleToSearchForHotels()[pri:0, instance:travelSearchTests.HotelBookingTest@3cb5cdba]" name="shouldBeAbleToSearchForHotels" class="travelSearchTests.HotelBookingTest"/>
+        <method signature="SignInTest.shouldThrowAnErrorIfSignInDetailsAreMissing()[pri:0, instance:travelSearchTests.SignInTest@56cbfb61]" name="shouldThrowAnErrorIfSignInDetailsAreMissing" class="travelSearchTests.SignInTest"/>
       </group> <!-- regression -->
     </groups>
-    <test name="Travel Booking Service" duration-ms="19355" started-at="2018-07-23T11:25:26Z" finished-at="2018-07-23T11:25:46Z">
-      <class name="automationFramework.FlightBookingTest">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:automationFramework.FlightBookingTest@3cb5cdba]" name="initialize" is-config="true" duration-ms="22676" started-at="2018-07-23T16:55:04Z" finished-at="2018-07-23T16:55:26Z">
+    <test name="Travel Booking Service" duration-ms="59450" started-at="2018-07-23T15:37:31Z" finished-at="2018-07-23T15:38:30Z">
+      <class name="travelSearchTests.HotelBookingTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:travelSearchTests.HotelBookingTest@3cb5cdba]" name="initialize" is-config="true" duration-ms="5674" started-at="2018-07-23T21:07:54Z" finished-at="2018-07-23T21:08:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="testThatResultsAppearForAOneWayJourney()[pri:0, instance:automationFramework.FlightBookingTest@3cb5cdba]" name="testThatResultsAppearForAOneWayJourney" duration-ms="19310" started-at="2018-07-23T16:55:26Z" finished-at="2018-07-23T16:55:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testThatResultsAppearForAOneWayJourney -->
-      </class> <!-- automationFramework.FlightBookingTest -->
-      <class name="automationFramework.HotelBookingTest">
-        <test-method status="FAIL" signature="shouldBeAbleToSearchForHotels()[pri:0, instance:automationFramework.HotelBookingTest@56cbfb61]" name="shouldBeAbleToSearchForHotels" duration-ms="14" started-at="2018-07-23T16:55:46Z" finished-at="2018-07-23T16:55:46Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy5.click(Unknown Source)
-	at pageObjects.HotelBookingPO.clickHotelTab(HotelBookingPO.java:36)
-	at automationFramework.HotelBookingTest.shouldBeAbleToSearchForHotels(HotelBookingTest.java:18)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method status="PASS" signature="shouldBeAbleToSearchForHotels()[pri:0, instance:travelSearchTests.HotelBookingTest@3cb5cdba]" name="shouldBeAbleToSearchForHotels" duration-ms="15264" started-at="2018-07-23T21:08:00Z" finished-at="2018-07-23T21:08:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldBeAbleToSearchForHotels -->
-      </class> <!-- automationFramework.HotelBookingTest -->
-      <class name="automationFramework.SignInTest">
-        <test-method status="FAIL" signature="shouldThrowAnErrorIfSignInDetailsAreMissing()[pri:0, instance:automationFramework.SignInTest@1134affc]" name="shouldThrowAnErrorIfSignInDetailsAreMissing" duration-ms="6" started-at="2018-07-23T16:55:46Z" finished-at="2018-07-23T16:55:46Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at pageObjects.SignInPO.lnk_YourTrips(SignInPO.java:20)
-	at automationFramework.SignInTest.shouldThrowAnErrorIfSignInDetailsAreMissing(SignInTest.java:16)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method status="PASS" signature="exitdriver()[pri:0, instance:travelSearchTests.HotelBookingTest@3cb5cdba]" name="exitdriver" is-config="true" duration-ms="1564" started-at="2018-07-23T21:08:15Z" finished-at="2018-07-23T21:08:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitdriver -->
+      </class> <!-- travelSearchTests.HotelBookingTest -->
+      <class name="travelSearchTests.FlightBookingTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:travelSearchTests.FlightBookingTest@5a39699c]" name="initialize" is-config="true" duration-ms="6150" started-at="2018-07-23T21:07:31Z" finished-at="2018-07-23T21:07:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testThatResultsAppearForAOneWayJourney()[pri:0, instance:travelSearchTests.FlightBookingTest@5a39699c]" name="testThatResultsAppearForAOneWayJourney" duration-ms="15715" started-at="2018-07-23T21:07:37Z" finished-at="2018-07-23T21:07:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThatResultsAppearForAOneWayJourney -->
+        <test-method status="PASS" signature="exitdriver()[pri:0, instance:travelSearchTests.FlightBookingTest@5a39699c]" name="exitdriver" is-config="true" duration-ms="1405" started-at="2018-07-23T21:07:53Z" finished-at="2018-07-23T21:07:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitdriver -->
+      </class> <!-- travelSearchTests.FlightBookingTest -->
+      <class name="travelSearchTests.SignInTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:travelSearchTests.SignInTest@56cbfb61]" name="initialize" is-config="true" duration-ms="5673" started-at="2018-07-23T21:08:17Z" finished-at="2018-07-23T21:08:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="shouldThrowAnErrorIfSignInDetailsAreMissing()[pri:0, instance:travelSearchTests.SignInTest@56cbfb61]" name="shouldThrowAnErrorIfSignInDetailsAreMissing" duration-ms="6618" started-at="2018-07-23T21:08:22Z" finished-at="2018-07-23T21:08:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldThrowAnErrorIfSignInDetailsAreMissing -->
-      </class> <!-- automationFramework.SignInTest -->
+        <test-method status="PASS" signature="exitdriver()[pri:0, instance:travelSearchTests.SignInTest@56cbfb61]" name="exitdriver" is-config="true" duration-ms="1371" started-at="2018-07-23T21:08:29Z" finished-at="2018-07-23T21:08:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitdriver -->
+      </class> <!-- travelSearchTests.SignInTest -->
     </test> <!-- Travel Booking Service -->
   </suite> <!-- Travel Booking Suite -->
 </testng-results>

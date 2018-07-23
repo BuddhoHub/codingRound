@@ -1,7 +1,7 @@
-automationFramework\FlightBookingTest.class
 pageObjects\SignInPO.class
-automationFramework\HotelBookingTest.class
+travelSearchTests\FlightBookingTest.class
+travelSearchTests\SignInTest.class
 pageObjects\FlightBookingPO.class
-automationFramework\SignInTest.class
 testConfig\SeleniumHelper.class
 pageObjects\HotelBookingPO.class
+travelSearchTests\HotelBookingTest.class

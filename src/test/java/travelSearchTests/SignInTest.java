@@ -1,4 +1,4 @@
-package automationFramework;
+package travelSearchTests;
 
 import org.openqa.selenium.By;
 import org.testng.Assert;
@@ -13,6 +13,7 @@ public class SignInTest extends SeleniumHelper{
     @Test(groups = {"regression"})
     public void shouldThrowAnErrorIfSignInDetailsAreMissing() {
     	SignInPO SignInPO = new SignInPO(driver);
+    	waitFor(5000);
         SignInPO.lnk_YourTrips().click();
         SignInPO.lnk_SignInLink().click();
         
@@ -23,10 +24,4 @@ public class SignInTest extends SeleniumHelper{
         Assert.assertTrue(errors1.contains("There were errors in your submission"));
         
     }
-    
-    @AfterTest
-	public void navigateToHomePage(){
-		driver.findElement(By.xpath("//*[@id='GlobalNav']/div/div[1]/a/span")).click();
-	}
-
 }

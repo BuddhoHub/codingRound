@@ -1,4 +1,4 @@
-package automationFramework;
+package travelSearchTests;
 
 import org.openqa.selenium.By;
 import org.testng.Assert;
@@ -28,10 +28,5 @@ public class HotelBookingTest extends SeleniumHelper{
 		//verify that result appears for the provided hotel search
 		Assert.assertTrue(isElementPresent(By.className("searchSummary")));
 
-	}
-
-	@AfterTest
-	public void navigateToHomePage(){
-		driver.findElement(By.xpath("//*[@id='GlobalNav']/div/div[1]/a/span")).click();
 	}
 }

@@ -6,15 +6,15 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 
 import com.sun.javafx.PlatformUtil;
 
 public class SeleniumHelper 
 {
 	public WebDriver driver;
-	@BeforeSuite(groups = { "prereq"})
+	@BeforeMethod(groups = { "prereq"})
 	public void initialize() {
 		setDriverPath();
 		driver = new ChromeDriver() ;
@@ -23,9 +23,9 @@ public class SeleniumHelper
 		driver.get("https://www.cleartrip.com/");
 	}
 
-	@AfterSuite
+	@AfterMethod(groups = { "prereq"})
 	public void exitdriver() {
-		driver.close();
+		driver.quit();
 	}
 
 	private void setDriverPath() {

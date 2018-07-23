@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Travel_Booking_Suite">
-              <span class="suite-name border-failed">Travel Booking Suite</span>
+              <span class="suite-name border-passed">Travel Booking Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,26 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 2 failed,   1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Travel_Booking_Suite" class="hide-methods failed suite-Travel_Booking_Suite"> (hide)</a> <!-- hide-methods failed suite-Travel_Booking_Suite -->
-                      <a href="#" panel-name="suite-Travel_Booking_Suite" class="show-methods failed suite-Travel_Booking_Suite"> (show)</a> <!-- show-methods failed suite-Travel_Booking_Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Travel_Booking_Suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Travel_Booking_Suite" title="automationFramework.HotelBookingTest" hash-for-method="shouldBeAbleToSearchForHotels">shouldBeAbleToSearchForHotels</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Travel_Booking_Suite" title="automationFramework.SignInTest" hash-for-method="shouldThrowAnErrorIfSignInDetailsAreMissing">shouldThrowAnErrorIfSignInDetailsAreMissing</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Travel_Booking_Suite -->
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -121,7 +102,17 @@
                     <div class="method-list-content passed suite-Travel_Booking_Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Travel_Booking_Suite" title="automationFramework.FlightBookingTest" hash-for-method="testThatResultsAppearForAOneWayJourney">testThatResultsAppearForAOneWayJourney</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Travel_Booking_Suite" title="travelSearchTests.HotelBookingTest" hash-for-method="shouldBeAbleToSearchForHotels">shouldBeAbleToSearchForHotels</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Travel_Booking_Suite" title="travelSearchTests.SignInTest" hash-for-method="shouldThrowAnErrorIfSignInDetailsAreMissing">shouldThrowAnErrorIfSignInDetailsAreMissing</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Travel_Booking_Suite" title="travelSearchTests.FlightBookingTest" hash-for-method="testThatResultsAppearForAOneWayJourney">testThatResultsAppearForAOneWayJourney</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Travel_Booking_Suite -->
@@ -136,53 +127,10 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Travel_Booking_Suite" class="panel Travel_Booking_Suite">
-          <div class="suite-Travel_Booking_Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">automationFramework.SignInTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="shouldThrowAnErrorIfSignInDetailsAreMissing">
-                  </a> <!-- shouldThrowAnErrorIfSignInDetailsAreMissing -->
-                  <span class="method-name">shouldThrowAnErrorIfSignInDetailsAreMissing</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at pageObjects.SignInPO.lnk_YourTrips(SignInPO.java:20)
-	at automationFramework.SignInTest.shouldThrowAnErrorIfSignInDetailsAreMissing(SignInTest.java:16)
-... Removed 28 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Travel_Booking_Suite-class-failed -->
-          <div class="suite-Travel_Booking_Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">automationFramework.HotelBookingTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="shouldBeAbleToSearchForHotels">
-                  </a> <!-- shouldBeAbleToSearchForHotels -->
-                  <span class="method-name">shouldBeAbleToSearchForHotels</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy5.click(Unknown Source)
-	at pageObjects.HotelBookingPO.clickHotelTab(HotelBookingPO.java:36)
-	at automationFramework.HotelBookingTest.shouldBeAbleToSearchForHotels(HotelBookingTest.java:18)
-... Removed 28 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Travel_Booking_Suite-class-failed -->
           <div class="suite-Travel_Booking_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">automationFramework.FlightBookingTest</span>
+              <span class="class-name">travelSearchTests.FlightBookingTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -190,6 +138,36 @@
                   <a name="testThatResultsAppearForAOneWayJourney">
                   </a> <!-- testThatResultsAppearForAOneWayJourney -->
                   <span class="method-name">testThatResultsAppearForAOneWayJourney</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Travel_Booking_Suite-class-passed -->
+          <div class="suite-Travel_Booking_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">travelSearchTests.SignInTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldThrowAnErrorIfSignInDetailsAreMissing">
+                  </a> <!-- shouldThrowAnErrorIfSignInDetailsAreMissing -->
+                  <span class="method-name">shouldThrowAnErrorIfSignInDetailsAreMissing</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Travel_Booking_Suite-class-passed -->
+          <div class="suite-Travel_Booking_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">travelSearchTests.HotelBookingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldBeAbleToSearchForHotels">
+                  </a> <!-- shouldBeAbleToSearchForHotels -->
+                  <span class="method-name">shouldBeAbleToSearchForHotels</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -212,15 +190,15 @@
       &lt;/run&gt;
     &lt;/groups&gt;
     &lt;packages&gt;
-      &lt;package name=&quot;automationFramework.*&quot;/&gt;
+      &lt;package name=&quot;travelSearchTests.*&quot;/&gt;
     &lt;/packages&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;automationFramework.FlightBookingTest&quot;/&gt;
-      &lt;class name=&quot;automationFramework.HotelBookingTest&quot;/&gt;
-      &lt;class name=&quot;automationFramework.SignInTest&quot;/&gt;
-      &lt;class name=&quot;automationFramework.FlightBookingTest&quot;/&gt;
-      &lt;class name=&quot;automationFramework.HotelBookingTest&quot;/&gt;
-      &lt;class name=&quot;automationFramework.SignInTest&quot;/&gt;
+      &lt;class name=&quot;travelSearchTests.FlightBookingTest&quot;/&gt;
+      &lt;class name=&quot;travelSearchTests.HotelBookingTest&quot;/&gt;
+      &lt;class name=&quot;travelSearchTests.SignInTest&quot;/&gt;
+      &lt;class name=&quot;travelSearchTests.FlightBookingTest&quot;/&gt;
+      &lt;class name=&quot;travelSearchTests.HotelBookingTest&quot;/&gt;
+      &lt;class name=&quot;travelSearchTests.SignInTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Travel Booking Service --&gt;
 &lt;/suite&gt; &lt;!-- Travel Booking Suite --&gt;
@@ -279,21 +257,21 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testThatResultsAppearForAOneWayJourney')
-data.setCell(0, 2, 'automationFramework.FlightBookingTest')
-data.setCell(0, 3, 19310);
+data.setCell(0, 2, 'travelSearchTests.FlightBookingTest')
+data.setCell(0, 3, 15715);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'shouldBeAbleToSearchForHotels')
-data.setCell(1, 2, 'automationFramework.HotelBookingTest')
-data.setCell(1, 3, 14);
+data.setCell(1, 2, 'travelSearchTests.HotelBookingTest')
+data.setCell(1, 3, 15264);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'shouldThrowAnErrorIfSignInDetailsAreMissing')
-data.setCell(2, 2, 'automationFramework.SignInTest')
-data.setCell(2, 3, 6);
+data.setCell(2, 2, 'travelSearchTests.SignInTest')
+data.setCell(2, 3, 6618);
 window.suiteTableData['Travel_Booking_Suite']= { tableData: data, tableDiv: 'times-div-Travel_Booking_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 19 seconds</span>
+              <span class="suite-total-time">Total running time: 37 seconds</span>
               <div id="times-div-Travel_Booking_Suite">
               </div> <!-- times-div-Travel_Booking_Suite -->
             </div> <!-- times-div -->
@@ -308,23 +286,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Travel_Booking_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">automationFramework.SignInTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">initialize</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">automationFramework.HotelBookingTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">initialize</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Travel_Booking_Suite" class="panel">
@@ -333,33 +297,49 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">automationFramework.FlightBookingTest</div> <!-- chronological-class-name -->
-              <div class="configuration-suite before">
+              <div class="chronological-class-name">travelSearchTests.FlightBookingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
                 <span class="method-name">initialize</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-suite before -->
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testThatResultsAppearForAOneWayJourney</span>
-                <span class="method-start">22690 ms</span>
+                <span class="method-start">6150 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">exitdriver</span>
+                <span class="method-start">21865 ms</span>
+              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">automationFramework.HotelBookingTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">travelSearchTests.HotelBookingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">23273 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">shouldBeAbleToSearchForHotels</span>
-                <span class="method-start">42002 ms</span>
+                <span class="method-start">28947 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">exitdriver</span>
+                <span class="method-start">44212 ms</span>
+              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">automationFramework.SignInTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">travelSearchTests.SignInTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">45776 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">shouldThrowAnErrorIfSignInDetailsAreMissing</span>
-                <span class="method-start">42025 ms</span>
+                <span class="method-start">51449 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">exitdriver</span>
+                <span class="method-start">58067 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
