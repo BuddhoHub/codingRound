@@ -5,8 +5,8 @@
 	<test name="Travel Booking Service">
 		<groups>
 			<run>
+				<include name="prereq" />
 				<include name="regression" />
-				<include name="P0" />
 			</run>
 		</groups>
 		<packages>

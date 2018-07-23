@@ -4,16 +4,23 @@
   <test name="Travel Booking Service(failed)">
     <groups>
       <run>
+        <include name="prereq"/>
         <include name="regression"/>
-        <include name="P0"/>
       </run>
     </groups>
     <classes>
-      <class name="automationFramework.FlightBookingTest">
+      <class name="automationFramework.SignInTest">
         <methods>
-          <include name="testThatResultsAppearForAOneWayJourney"/>
+          <include name="shouldThrowAnErrorIfSignInDetailsAreMissing"/>
+          <include name="initialize"/>
         </methods>
-      </class> <!-- automationFramework.FlightBookingTest -->
+      </class> <!-- automationFramework.SignInTest -->
+      <class name="automationFramework.HotelBookingTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="shouldBeAbleToSearchForHotels"/>
+        </methods>
+      </class> <!-- automationFramework.HotelBookingTest -->
     </classes>
   </test> <!-- Travel Booking Service(failed) -->
 </suite> <!-- Failed suite [Travel Booking Suite] -->

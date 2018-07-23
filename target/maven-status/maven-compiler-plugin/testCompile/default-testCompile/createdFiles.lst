@@ -1,6 +1,7 @@
-pageObjects\HotelBookingPO.class
 automationFramework\FlightBookingTest.class
 pageObjects\SignInPO.class
 automationFramework\HotelBookingTest.class
 pageObjects\FlightBookingPO.class
 automationFramework\SignInTest.class
+testConfig\SeleniumHelper.class
+pageObjects\HotelBookingPO.class

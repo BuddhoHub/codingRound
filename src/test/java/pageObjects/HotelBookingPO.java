@@ -8,9 +8,10 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
-public class HotelBookingPO{
+import testConfig.SeleniumHelper;
 
-	WebDriver driver;
+public class HotelBookingPO extends SeleniumHelper{
+
 	@FindBy(xpath="//*[@id='Home']/div/div/ul/li/div/div[2]/aside[1]/nav/ul[1]/li[2]/a[1]/span")
 	private WebElement hotelLink;
 	
@@ -56,14 +57,6 @@ public class HotelBookingPO{
     	        break;
     	    }
     	}
-	}
-	
-	private void waitFor(int durationInMilliSeconds) {
-		try {
-			Thread.sleep(durationInMilliSeconds);
-		} catch (InterruptedException e) {
-			e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
-		}
 	}
 
 }

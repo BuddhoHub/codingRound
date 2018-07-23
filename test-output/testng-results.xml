@@ -2,24 +2,31 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8099" started-at="2018-07-20T11:02:47Z" finished-at="2018-07-20T11:02:55Z">
+  <suite name="Default suite" duration-ms="24657" started-at="2018-07-23T11:24:02Z" finished-at="2018-07-23T11:24:27Z">
     <groups>
+      <group name="regression">
+        <method signature="HotelBookingTest.shouldBeAbleToSearchForHotels()[pri:0, instance:automationFramework.HotelBookingTest@6fc6f14e]" name="shouldBeAbleToSearchForHotels" class="automationFramework.HotelBookingTest"/>
+      </group> <!-- regression -->
     </groups>
-    <test name="Default test" duration-ms="8099" started-at="2018-07-20T11:02:47Z" finished-at="2018-07-20T11:02:55Z">
-      <class name="automationFramework.SignInTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:automationFramework.SignInTest@685cb137]" name="setup" is-config="true" duration-ms="5365" started-at="2018-07-20T16:32:47Z" finished-at="2018-07-20T16:32:52Z">
+    <test name="Default test" duration-ms="24657" started-at="2018-07-23T11:24:02Z" finished-at="2018-07-23T11:24:27Z">
+      <class name="automationFramework.HotelBookingTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:automationFramework.HotelBookingTest@6fc6f14e]" name="initialize" is-config="true" duration-ms="14106" started-at="2018-07-23T16:53:48Z" finished-at="2018-07-23T16:54:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="shouldThrowAnErrorIfSignInDetailsAreMissing()[pri:0, instance:automationFramework.SignInTest@685cb137]" name="shouldThrowAnErrorIfSignInDetailsAreMissing" duration-ms="1790" started-at="2018-07-20T16:32:52Z" finished-at="2018-07-20T16:32:54Z">
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="shouldBeAbleToSearchForHotels()[pri:0, instance:automationFramework.HotelBookingTest@6fc6f14e]" name="shouldBeAbleToSearchForHotels" duration-ms="22577" started-at="2018-07-23T16:54:02Z" finished-at="2018-07-23T16:54:25Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- shouldThrowAnErrorIfSignInDetailsAreMissing -->
-        <test-method status="PASS" signature="closeWindow()[pri:0, instance:automationFramework.SignInTest@685cb137]" name="closeWindow" is-config="true" duration-ms="925" started-at="2018-07-20T16:32:54Z" finished-at="2018-07-20T16:32:55Z">
+        </test-method> <!-- shouldBeAbleToSearchForHotels -->
+        <test-method status="PASS" signature="navigateToHomePage()[pri:0, instance:automationFramework.HotelBookingTest@6fc6f14e]" name="navigateToHomePage" is-config="true" duration-ms="2041" started-at="2018-07-23T16:54:25Z" finished-at="2018-07-23T16:54:27Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeWindow -->
-      </class> <!-- automationFramework.SignInTest -->
+        </test-method> <!-- navigateToHomePage -->
+        <test-method status="PASS" signature="exitdriver()[pri:0, instance:automationFramework.HotelBookingTest@6fc6f14e]" name="exitdriver" is-config="true" duration-ms="2103" started-at="2018-07-23T16:54:27Z" finished-at="2018-07-23T16:54:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitdriver -->
+      </class> <!-- automationFramework.HotelBookingTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
