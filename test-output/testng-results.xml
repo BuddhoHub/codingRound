@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8099" started-at="2018-07-20T11:02:47Z" finished-at="2018-07-20T11:02:55Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8099" started-at="2018-07-20T11:02:47Z" finished-at="2018-07-20T11:02:55Z">
+      <class name="automationFramework.SignInTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:automationFramework.SignInTest@685cb137]" name="setup" is-config="true" duration-ms="5365" started-at="2018-07-20T16:32:47Z" finished-at="2018-07-20T16:32:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="shouldThrowAnErrorIfSignInDetailsAreMissing()[pri:0, instance:automationFramework.SignInTest@685cb137]" name="shouldThrowAnErrorIfSignInDetailsAreMissing" duration-ms="1790" started-at="2018-07-20T16:32:52Z" finished-at="2018-07-20T16:32:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldThrowAnErrorIfSignInDetailsAreMissing -->
+        <test-method status="PASS" signature="closeWindow()[pri:0, instance:automationFramework.SignInTest@685cb137]" name="closeWindow" is-config="true" duration-ms="925" started-at="2018-07-20T16:32:54Z" finished-at="2018-07-20T16:32:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- automationFramework.SignInTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
