@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="automationFramework.FlightBookingTest">
+      <class name="travelSearchTests.HotelBookingTest">
         <methods>
-          <include name="testThatResultsAppearForAOneWayJourney"/>
-          <include name="closeWindow"/>
-          <include name="setupChromeDriver"/>
+          <include name="shouldBeAbleToSearchForHotels"/>
+          <include name="exitdriver"/>
+          <include name="initialize"/>
         </methods>
-      </class> <!-- automationFramework.FlightBookingTest -->
+      </class> <!-- travelSearchTests.HotelBookingTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -2,7 +2,7 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Travel Booking Suite" duration-ms="59450" started-at="2018-07-23T15:37:31Z" finished-at="2018-07-23T15:38:30Z">
+  <suite name="Travel Booking Suite" duration-ms="64081" started-at="2018-07-24T12:21:43Z" finished-at="2018-07-24T12:22:47Z">
     <groups>
       <group name="regression">
         <method signature="FlightBookingTest.testThatResultsAppearForAOneWayJourney()[pri:0, instance:travelSearchTests.FlightBookingTest@5a39699c]" name="testThatResultsAppearForAOneWayJourney" class="travelSearchTests.FlightBookingTest"/>
@@ -10,45 +10,45 @@
         <method signature="SignInTest.shouldThrowAnErrorIfSignInDetailsAreMissing()[pri:0, instance:travelSearchTests.SignInTest@56cbfb61]" name="shouldThrowAnErrorIfSignInDetailsAreMissing" class="travelSearchTests.SignInTest"/>
       </group> <!-- regression -->
     </groups>
-    <test name="Travel Booking Service" duration-ms="59450" started-at="2018-07-23T15:37:31Z" finished-at="2018-07-23T15:38:30Z">
+    <test name="Travel Booking Service" duration-ms="64081" started-at="2018-07-24T12:21:43Z" finished-at="2018-07-24T12:22:47Z">
       <class name="travelSearchTests.HotelBookingTest">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:travelSearchTests.HotelBookingTest@3cb5cdba]" name="initialize" is-config="true" duration-ms="5674" started-at="2018-07-23T21:07:54Z" finished-at="2018-07-23T21:08:00Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:travelSearchTests.HotelBookingTest@3cb5cdba]" name="initialize" is-config="true" duration-ms="7529" started-at="2018-07-24T17:52:06Z" finished-at="2018-07-24T17:52:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="shouldBeAbleToSearchForHotels()[pri:0, instance:travelSearchTests.HotelBookingTest@3cb5cdba]" name="shouldBeAbleToSearchForHotels" duration-ms="15264" started-at="2018-07-23T21:08:00Z" finished-at="2018-07-23T21:08:15Z">
+        <test-method status="PASS" signature="shouldBeAbleToSearchForHotels()[pri:0, instance:travelSearchTests.HotelBookingTest@3cb5cdba]" name="shouldBeAbleToSearchForHotels" duration-ms="17572" started-at="2018-07-24T17:52:14Z" finished-at="2018-07-24T17:52:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldBeAbleToSearchForHotels -->
-        <test-method status="PASS" signature="exitdriver()[pri:0, instance:travelSearchTests.HotelBookingTest@3cb5cdba]" name="exitdriver" is-config="true" duration-ms="1564" started-at="2018-07-23T21:08:15Z" finished-at="2018-07-23T21:08:17Z">
+        <test-method status="PASS" signature="exitdriver()[pri:0, instance:travelSearchTests.HotelBookingTest@3cb5cdba]" name="exitdriver" is-config="true" duration-ms="1088" started-at="2018-07-24T17:52:31Z" finished-at="2018-07-24T17:52:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exitdriver -->
       </class> <!-- travelSearchTests.HotelBookingTest -->
       <class name="travelSearchTests.FlightBookingTest">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:travelSearchTests.FlightBookingTest@5a39699c]" name="initialize" is-config="true" duration-ms="6150" started-at="2018-07-23T21:07:31Z" finished-at="2018-07-23T21:07:37Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:travelSearchTests.FlightBookingTest@5a39699c]" name="initialize" is-config="true" duration-ms="6588" started-at="2018-07-24T17:51:43Z" finished-at="2018-07-24T17:51:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="testThatResultsAppearForAOneWayJourney()[pri:0, instance:travelSearchTests.FlightBookingTest@5a39699c]" name="testThatResultsAppearForAOneWayJourney" duration-ms="15715" started-at="2018-07-23T21:07:37Z" finished-at="2018-07-23T21:07:53Z">
+        <test-method status="PASS" signature="testThatResultsAppearForAOneWayJourney()[pri:0, instance:travelSearchTests.FlightBookingTest@5a39699c]" name="testThatResultsAppearForAOneWayJourney" duration-ms="15565" started-at="2018-07-24T17:51:50Z" finished-at="2018-07-24T17:52:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testThatResultsAppearForAOneWayJourney -->
-        <test-method status="PASS" signature="exitdriver()[pri:0, instance:travelSearchTests.FlightBookingTest@5a39699c]" name="exitdriver" is-config="true" duration-ms="1405" started-at="2018-07-23T21:07:53Z" finished-at="2018-07-23T21:07:54Z">
+        <test-method status="PASS" signature="exitdriver()[pri:0, instance:travelSearchTests.FlightBookingTest@5a39699c]" name="exitdriver" is-config="true" duration-ms="1046" started-at="2018-07-24T17:52:05Z" finished-at="2018-07-24T17:52:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exitdriver -->
       </class> <!-- travelSearchTests.FlightBookingTest -->
       <class name="travelSearchTests.SignInTest">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:travelSearchTests.SignInTest@56cbfb61]" name="initialize" is-config="true" duration-ms="5673" started-at="2018-07-23T21:08:17Z" finished-at="2018-07-23T21:08:22Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:travelSearchTests.SignInTest@56cbfb61]" name="initialize" is-config="true" duration-ms="6100" started-at="2018-07-24T17:52:32Z" finished-at="2018-07-24T17:52:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="shouldThrowAnErrorIfSignInDetailsAreMissing()[pri:0, instance:travelSearchTests.SignInTest@56cbfb61]" name="shouldThrowAnErrorIfSignInDetailsAreMissing" duration-ms="6618" started-at="2018-07-23T21:08:22Z" finished-at="2018-07-23T21:08:29Z">
+        <test-method status="PASS" signature="shouldThrowAnErrorIfSignInDetailsAreMissing()[pri:0, instance:travelSearchTests.SignInTest@56cbfb61]" name="shouldThrowAnErrorIfSignInDetailsAreMissing" duration-ms="7537" started-at="2018-07-24T17:52:38Z" finished-at="2018-07-24T17:52:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldThrowAnErrorIfSignInDetailsAreMissing -->
-        <test-method status="PASS" signature="exitdriver()[pri:0, instance:travelSearchTests.SignInTest@56cbfb61]" name="exitdriver" is-config="true" duration-ms="1371" started-at="2018-07-23T21:08:29Z" finished-at="2018-07-23T21:08:30Z">
+        <test-method status="PASS" signature="exitdriver()[pri:0, instance:travelSearchTests.SignInTest@56cbfb61]" name="exitdriver" is-config="true" duration-ms="1039" started-at="2018-07-24T17:52:46Z" finished-at="2018-07-24T17:52:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exitdriver -->

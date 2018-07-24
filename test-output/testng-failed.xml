@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Travel Booking Suite]">
-  <test name="Travel Booking Service(failed)">
-    <groups>
-      <run>
-        <include name="regression"/>
-        <include name="P0"/>
-      </run>
-    </groups>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="automationFramework.FlightBookingTest">
+      <class name="travelSearchTests.HotelBookingTest">
         <methods>
-          <include name="testThatResultsAppearForAOneWayJourney"/>
+          <include name="shouldBeAbleToSearchForHotels"/>
+          <include name="exitdriver"/>
+          <include name="initialize"/>
         </methods>
-      </class> <!-- automationFramework.FlightBookingTest -->
+      </class> <!-- travelSearchTests.HotelBookingTest -->
     </classes>
-  </test> <!-- Travel Booking Service(failed) -->
-</suite> <!-- Failed suite [Travel Booking Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
